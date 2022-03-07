@@ -1,6 +1,7 @@
 import { Switch, Route } from '@modern-js/runtime/router';
+import Demo from './Demo';
 
-import './App.css';
+import './App.global.less';
 
 const App = () => (
   <Switch>
@@ -14,6 +15,7 @@ const App = () => (
               alt="Modern.js Logo"
             />
           </div>
+          <Demo />
           <p className="description">
             Get started by editing <code className="code">src/App.tsx</code>
           </p>
